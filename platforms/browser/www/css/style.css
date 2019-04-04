@@ -1,0 +1,103 @@
+* { 
+max-height: 100vh;
+max-width: 100vw;
+overflow: hidden;
+}
+
+body { 
+margin: 0;
+}
+
+@font-face { 
+font-family: Party;
+src: url("../fonts/PermanentMarker-Regular.ttf");
+}
+
+@font-face { 
+font-family: icons; 
+src: url("../fonts/line-awesome.ttf");
+}
+
+h1 {
+font-family: Party;
+position: absolute;
+text-align: center;
+color: white;
+transform: rotate(90deg);
+height: auto;
+width:150vh;
+top: 43.5vh;
+right: -30vw;
+font-size: 2em;
+}
+
+h2 {
+font-family: Party;
+position: absolute;
+text-align: center;
+color: white;
+transform: rotate(90deg);
+height: auto;
+width:150vh;
+top: 30vh;
+font-size: 5em;
+}
+
+#icon {
+position: absolute;
+color: white;
+font-family: icons;
+transform: rotate(90deg);
+bottom: 5px;
+left: 5px; 
+font-size: 1.6em;
+}
+
+#players { 
+position: absolute;
+color: white;
+font-family: icons;
+transform: rotate(90deg);
+bottom: 5px;
+right: 5px; 
+font-size: 1.6em;
+}
+
+#plus { 
+position: absolute;
+text-align: center;
+color: white;
+font-family: icons;
+transform: rotate(90deg);
+bottom:10%;
+left: 5%; 
+font-size: 3em;
+}
+
+#back {
+position: absolute;
+text-align: center;
+color: white;
+font-family: icons;
+transform: rotate(90deg);
+top:5%;
+right: 5%; 
+font-size: 2em;
+}
+
+#sub { 
+position: absolute;
+text-align: center;
+color: white;
+font-family: icons;
+transform: rotate(90deg);
+top:10%;
+left: 5%; 
+font-size: 3em;
+}
+
+#wrapper { 
+width: 100vw;
+height: 100vh;
+background-color:darkred;
+}
